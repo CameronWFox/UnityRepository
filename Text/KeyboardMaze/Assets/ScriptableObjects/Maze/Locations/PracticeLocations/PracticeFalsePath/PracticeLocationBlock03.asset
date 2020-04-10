@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bda154911b3b124e8a2cf605b121116, type: 3}
+  m_Name: PracticeLocationBlock03
+  m_EditorClassIdentifier: 
+  locationName: practicelocationblock03
+  locationDescription: You have reached a dead end with no way forward, you much
+    head back the way you came.
+  locationExits:
+  - exitKeyString: East
+    exitDescription: The way back is East...
+    locationValue: {fileID: 11400000, guid: 36b581c0167546443b13196353be5c89, type: 2}
+  locationInteractableObjects: []
+  locationInteractions: []

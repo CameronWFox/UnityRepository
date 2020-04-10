@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bda154911b3b124e8a2cf605b121116, type: 3}
+  m_Name: MainMenu
+  m_EditorClassIdentifier: 
+  locationName: MainMenu
+  locationDescription: 'Welcome to the main menu of my game. I hope you enjoy the
+    experinence!
+
+
+    Please type in "move controls" in order to see the controls
+    for the game.
+
+
+    Please type in "move introduction" to skip the controls and
+    head right into the game.'
+  locationExits:
+  - exitKeyString: controls
+    exitDescription: 
+    locationValue: {fileID: 11400000, guid: 3555d558ba834524c8248540067001fe, type: 2}
+  - exitKeyString: introduction
+    exitDescription: 
+    locationValue: {fileID: 11400000, guid: d24dbfaad909f0e49becb067b36b0325, type: 2}
+  locationInteractableObjects: []
+  locationInteractions: []

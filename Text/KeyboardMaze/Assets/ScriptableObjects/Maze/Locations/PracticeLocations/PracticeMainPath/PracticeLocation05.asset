@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bda154911b3b124e8a2cf605b121116, type: 3}
+  m_Name: PracticeLocation05
+  m_EditorClassIdentifier: 
+  locationName: practicelocation05
+  locationDescription: 'You enter the next area, where will you go next?
+
+'
+  locationExits:
+  - exitKeyString: South
+    exitDescription: You see a path South...
+    locationValue: {fileID: 11400000, guid: a0e3b527c18aeb8409b3fece20789c4e, type: 2}
+  - exitKeyString: West
+    exitDescription: There is a way West...
+    locationValue: {fileID: 11400000, guid: eac21f4e7228e7b41887b657d4c45b25, type: 2}
+  - exitKeyString: East
+    exitDescription: There is a path leading East...
+    locationValue: {fileID: 11400000, guid: e898adafcfad70f4599999a280a83b0d, type: 2}
+  locationInteractableObjects: []
+  locationInteractions: []
